@@ -4,7 +4,13 @@ const nextConfig = {
         images: {
             allowFutureImage: true,
         }
-    }
+    },
+
+    images: {
+        domains: [
+            'files.stripe.com',
+        ]
+    },
 };
 
 export default nextConfig;
